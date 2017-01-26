@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B2FF59"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hpnotebook.business.MainActivity">
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="Academy Of Fine Arts..."
+        android:textAllCaps="true"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/text_view"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/painting" />
+
+    <TextView
+        android:id="@+id/head_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_view"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="cursive"
+        android:text="Dream Ur Painting and Paint Ur Dream !!!"
+        android:textColor="#F50057"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/desc_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@+id/head_text_view"
+        android:paddingTop="9dp"
+        android:text="The academy has been constantly conducting various art activities...So, come join us to enhance your artistict skills..." />
+
+
+    <TextView
+        android:id="@+id/cont_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_view"
+        android:layout_marginTop="50dp"
+        android:paddingTop="35dp"
+        android:text="Contact Us : "
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/detail_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cont_text_view"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/cont_text_view"
+        android:padding="20dp"
+        android:text="Academy of Fine Arts                     #SCO : 136 sec-20 Chandigarh, India                    Ph : +91 9876543210" />
+
+
+    <TextView
+        android:id="@+id/detail2_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cont_text_view"
+        android:fontFamily="sans-serif-medium"
+        android:paddingTop="35dp"
+        android:text="Conducive atmosphere if highly needed for a person to convey his imagination"
+        android:textAlignment="center"
+        android:textColor="#9C27B0"
+        android:textSize="10sp"
+        android:textStyle="italic" />
+
+
+</RelativeLayout>
